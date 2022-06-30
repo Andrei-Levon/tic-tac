@@ -28,6 +28,9 @@ function checkWin() {
             } else {
                 document.getElementById("title").innerHTML = "X wins!";
             }
+    } else if (round == 10) {
+        document.getElementById("title").innerHTML = "Draw";
+        document.getElementById("oOrder").style.opacity = "20%";
     }
 }
 
