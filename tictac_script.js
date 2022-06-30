@@ -1,6 +1,6 @@
 let isX = true;
 let round = 1;
-document.getElementById("oOrder").style.opacity = "80%";
+document.getElementById("oOrder").style.opacity = "20%";
 
 function disableButtons() {
     let buttons = document.getElementsByClassName("square");
